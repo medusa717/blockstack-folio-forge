@@ -3,7 +3,6 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { Github, Linkedin, Mail, Phone, MapPin, ExternalLink, Code, Zap, Shield, Award } from "lucide-react";
-import oscarHeadshot from "@/assets/oscar-garcia-headshot.jpg";
 
 const Index = () => {
   const skills = [
@@ -76,11 +75,6 @@ const Index = () => {
       <section className="relative px-6 py-20 bg-gradient-glow">
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-8">
-            <img 
-              src={oscarHeadshot} 
-              alt="Oscar Garcia - Blockchain Engineer" 
-              className="w-32 h-32 rounded-full mx-auto mb-6 shadow-glow border-2 border-primary/20"
-            />
             <h1 className="text-5xl font-bold mb-4 bg-gradient-primary bg-clip-text text-transparent">
               Oscar Garcia
             </h1>
